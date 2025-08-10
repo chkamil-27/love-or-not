@@ -223,6 +223,7 @@
 .footer .funny-text {
   font-size: 0.9rem;
   letter-spacing: 0.05em;
+  text-align: center;
   color: var(--lon-pink-primary);
 }
 
