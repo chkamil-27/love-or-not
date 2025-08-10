@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="A charming little web app where a choice is made between 'Bhaiya (Brother)' or 'Not Bhaiya (Not Brother)'. Try your luck - but only one option lets you in. Let the fun unfold."
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Quicksand:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./stylesheet/global.css" />
+    <link rel="stylesheet" href="./stylesheet/index.css" />
+    <title>Love or Not? - The Ultimate Playful 😜 Game</title>
+  </head>
+  <body>
+    <div class="background-main" aria-hidden="true"></div>
+
+    <main class="container" role="main">
+      <div class="container-child">
+        <h1>Love or Not? 😜💘</h1>
+        <h2 class="subtitle">The cheekiest choice you'll make today</h2>
+        <p>
+          Choose wisely - try to catch Bhaiya if you dare! But heads up,
+          he&apos;s a slippery little rascal who loves to play hard to get.
+        </p>
+        <div class="button-group">
+          <button id="bhaiya-btn" type="button" class="game-btn">
+            Bhaiya 🤭
+          </button>
+          <button id="not-bhaiya-btn" type="button" class="game-btn">
+            Not Bhaiya 💖
+          </button>
+        </div>
+      </div>
+    </main>
+
+    <div
+      id="cute-modal"
+      class="modal hidden"
+      role="dialog"
+      aria-modal="true"
+      aria-labelledby="modal-title"
+      aria-describedby="modal-desc"
+    >
+      <div class="modal-content">
+        <button id="close-modal" class="close-btn" aria-label="Close modal">
+          &times;
+        </button>
+        <h2 id="modal-title">Hey there! 💖</h2>
+        <p id="modal-desc">You chose Not Bhaiya! Good call, cutie! 😘</p>
+      </div>
+    </div>
+
+    <footer class="footer">
+      <p class="copyright">&copy; 2025 Reginald Sahil Chand</p>
+      <p class="funny-text">
+        <i
+          >Made with 10 cups of coffee, 3 emotional meltdowns, and a
+          questionable playlist</i
+        >
+        🎧☕️😂
+      </p>
+    </footer>
+
+    <script src="./scripts/index.js" defer></script>
+  </body>
+</html>
