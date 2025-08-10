@@ -20,20 +20,6 @@ Try it yourself or share the link with your special someone to enjoy the fun!
 - Vanilla JavaScript
 - HTML5
 - CSS3 (with backdrop-filter blur effects)
-- AI (for generating dynamic modal messages)
-
-## Color Palette
-
-| Purpose         | Color Hex  |
-|-----------------|------------|
-| Primary         | #F7CAC9    |
-| Secondary       | #92A8D1    |
-| Accent          | #F7786B    |
-| Success         | #88B04B    |
-| Error           | #D94F4F    |
-| Info            | #6B7B8C    |
-| Warning         | #F2C14E    |
-| Background      | rgba(255, 255, 255, 0.3) (with backdrop blur) |
 
 ## Installation
 
